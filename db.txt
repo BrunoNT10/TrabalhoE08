@@ -1,0 +1,15 @@
+Modelo: Gol
+Fabricante: Volks
+Ano: 2011
+Cilindrada: 50.0
+Aspirado: true
+Durabilidade: 1.0
+Capacete: Protork
+Macacão: Ferrari
+Bota: Caterpillar
+Luva: Branca
+Nome do Piloto: Bruno
+Nome da Marca: Volkswagen
+Nacionalidade da Marca: Alemã
+Número de Pilotos da Marca: 50
+****************************
