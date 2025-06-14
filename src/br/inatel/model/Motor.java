@@ -1,7 +1,6 @@
 package br.inatel.model;
 
 public class Motor {
-    private int idMotor;
     private double cilindrada;
     private boolean aspirado;
     private double durabilidade;
@@ -10,14 +9,6 @@ public class Motor {
         this.cilindrada = cilindrada;
         this.aspirado = aspirado;
         this.durabilidade = durabilidade;
-    }
-
-    public int getIdMotor() {
-        return idMotor;
-    }
-
-    public void setIdMotor(int idMotor) {
-        this.idMotor = idMotor;
     }
 
     public double getCilindrada() {

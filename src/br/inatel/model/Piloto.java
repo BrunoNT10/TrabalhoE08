@@ -1,18 +1,21 @@
 package br.inatel.model;
 
+import br.inatel.model.equipamento.seguranca.EquipamentoSeguranca;
+
 public class Piloto {
-    private int idPiloto;
     private String nome;
     private int qpf;
     private String genero;
     private String nacionalidade;
     private boolean campeao;
+    private EquipamentoSeguranca equipamentoSeguranca;
 
     // Construtores
     public Piloto() {}
 
-    public Piloto(String nome) {
+    public Piloto(String nome, EquipamentoSeguranca equipamentoSeguranca) {
         this.nome = nome;
+        this.equipamentoSeguranca = equipamentoSeguranca;
     }
 
     public Piloto(String nome, int qpf, String genero, String nacionalidade, boolean campeao) {
@@ -24,8 +27,6 @@ public class Piloto {
     }
 
     // Getters e Setters
-    public int getIdPiloto() { return idPiloto; }
-    public void setIdPiloto(int idPiloto) { this.idPiloto = idPiloto; }
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
     public int getQpf() { return qpf; }
@@ -36,4 +37,6 @@ public class Piloto {
     public void setNacionalidade(String nacionalidade) { this.nacionalidade = nacionalidade; }
     public boolean isCampeao() { return campeao; }
     public void setCampeao(boolean campeao) { this.campeao = campeao; }
+    public EquipamentoSeguranca getEquipamentoSeguranca() { return this.equipamentoSeguranca; }
+    public void setEquipamentoSeguranca(EquipamentoSeguranca equipamentoSeguranca) { this.equipamentoSeguranca = equipamentoSeguranca; }
 }

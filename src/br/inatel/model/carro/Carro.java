@@ -1,16 +1,23 @@
 package br.inatel.model.carro;
 
+import br.inatel.model.Marca;
 import br.inatel.model.Veiculo;
+import br.inatel.model.Piloto;
+import br.inatel.model.Motor;
 
 public class Carro extends Veiculo {
-    private int idPiloto;
+    private Piloto piloto;
+    private Marca marca;
+    private Motor motor;
 
-    public Carro(String modelo, String fabricante, int ano, int idPiloto) {
+    public Carro(String modelo, String fabricante, int ano, Piloto piloto, Marca marca, Motor motor) {
         super();
         this.modelo = modelo;
         this.fabricante = fabricante;
         this.ano = ano;
-        this.idPiloto = idPiloto;
+        this.piloto = piloto;
+        this.marca = marca;
+        this.motor = motor;
     }
 
     @Override

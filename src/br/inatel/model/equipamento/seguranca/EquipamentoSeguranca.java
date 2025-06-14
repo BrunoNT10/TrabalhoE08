@@ -18,12 +18,12 @@ public class EquipamentoSeguranca extends Equipamento implements Usavel {
 
     @Override
     public void usar() {
-        System.out.println("Usando equipamento de segurança: " + capacete + ", " + macacao + ", " + bota + ", " + luva);
+        System.out.println("Usando equipamento de segurança");
     }
 
     @Override
     public void mostrarEquipamento() {
-        System.out.println("Usando equipamento de segurança: " + capacete + ", " + macacao + ", " + bota + ", " + luva);
+        System.out.println("Equipamento de segurança completo: " + capacete + ", " + macacao + ", " + bota + ", " + luva);
     }
 
 
